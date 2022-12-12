@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TV</title>
+    <style>
+
+        .appGrid{
+            position: absolute;
+            right:0;
+            bottom:0;
+            display: inline-grid;
+            grid-template-columns: auto auto auto;
+            background-color: #353535;
+            border: #0e0e0e;
+        }
+        .app{
+            width: 40px;
+            height: 40px;
+            border: 2px solid #0e0e0e;
+            position: relative;
+            cursor: pointer;
+        }
+        .icon{
+            text-align: center;
+            display: block;
+            margin-top: 20%;
+        }
+        body {
+            width: 118px;
+            height: 118px;
+            overflow: hidden;
+        }
+
+    </style>
+</head>
+<body style="background: #0e0e0e">
+    <script type="text/javascript" src="tv.js"></script>
+    <div class="appGrid">
+        <div class="app">
+            <div id="yttv" class="icon">
+                <img src="images/youtube_tv.png" style="width:25px;height:25px;"></a>
+            </div>
+        </div>
+        <div id="yt" class="app">
+            <div class="icon">
+                <img src="images/youtube.png" style="width:25px;height:25px;"></a>
+            </div>
+        </div>
+        <div id="netflix" class="app">
+            <div class="icon">
+                <img src="images/netflix.png" style="width:25px;height:25px;"></a>
+            </div>
+        </div>
+        <div id="dplus" class="app">
+            <div class="icon">
+                <img src="images/disney.png" style="width:25px;height:25px;"></a>
+            </div>
+        </div>
+        <div id="ptv" class="app">
+            <div class="icon">
+                <img src="images/peacock.png" style="width:25px;height:25px;"></a>
+            </div>
+        </div>
+        <div id="pv" class="app">
+            <div class="icon">
+                <img src="images/prime_video.png" style="width:25px;height:25px;"></a>
+            </div>
+        </div>
+        <div id="hulu" class="app">
+            <div class="icon">
+                <img src="images/hulu.png" style="width:25px;height:25px;"></a>
+            </div>
+        </div>
+        <div id="twitch" class="app">
+            <div class="icon">
+                <img src="images/twitch.png" style="width:25px;height:25px;"></a>
+            </div>
+        </div>
+        <div id="max" class="app">
+            <div class="icon">
+                <img src="images/max.png" style="width:25px;height:25px;"></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
