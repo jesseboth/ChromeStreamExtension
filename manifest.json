@@ -1,15 +1,17 @@
 {
-    "manifest_version": 3,
     "name":"Streaming Apps",
-    "description":"popup with all my streaming apps",
-    "version": "1.0",
+    "version": "3.0",
     "author": "Jesse Both",
-    "browser_action":{
-        "default_icon":"images/tv.png",
-        "default_popup": "tv.html",
-        "default_title": "Stream"
+    "description":"popup with all my streaming apps",
+
+    "icons": {"128": "images/tv.png"},
+    "action": {
+        "default_title": "Stream",
+        "default_popup": "tv.html"
     },
     "permissions":[
         "activeTab"
-    ]
+    ],
+
+    "manifest_version": 3
 }
